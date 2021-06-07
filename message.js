@@ -1,4 +1,4 @@
-// USING jQuery:
+// Note: the code below requires the jQuery library
 
 $(document).ready(function() {   // allows the following code to run as soon as the page is loaded
     const defaultButtonColor = $("button").css("background-color");
@@ -50,39 +50,5 @@ $(document).ready(function() {   // allows the following code to run as soon as 
             $("#textanswer").css("background", "red");
             $("#answer2").html("Incorrect");
         }
-
     });
-
 });
-
-
-//// USING STANDARD JAVASCRIPT TO MANIPULATE THE DOM:
-
-//// note: use "document.querySelectorAll" to query all the HTML elements that match a query
-//// note: "document.querySelector" only looks for the first HTML elements
-
-// document.querySelector("#wrong1").addEventListener('click', function()
-// {
-//     document.querySelector("#wrong1").style.backgroundColor = '#ff0000';
-//     document.querySelector("#answer").innerHTML = "Incorrect";
-// });
-
-// document.querySelector("#wrong2").addEventListener('click', function()
-// {
-//     document.querySelector("#wrong2").style.backgroundColor = '#ff0000';
-//     document.querySelector("#answer").innerHTML = "Incorrect";
-// });
-
-// document.querySelector("#wrong3").addEventListener('click', function()
-// {
-//     document.querySelector("#wrong3").style.backgroundColor = '#ff0000';
-//     document.querySelector("#answer").innerHTML = "Incorrect";
-// });
-
-// document.querySelector("#right").addEventListener('click', function()
-// {
-//     document.querySelector("#right").style.backgroundColor = '#00ff00';
-//     document.querySelector("#answer").innerHTML = "Correct!";
-// });
-
-
