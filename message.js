@@ -4,7 +4,7 @@ $(document).ready(function() {   // allows the following code to run as soon as 
     const defaultButtonColor = $("button").css("background-color");
 
     function wrongAnswer(answer) {
-        $(answer).css("background", "red");
+        $(answer).css("background", "#fc6c85");
         $("#answer").html("Incorrect");
     }
 
