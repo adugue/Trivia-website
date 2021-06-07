@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <!-- Add jQuery to this page using a (Google) CDN (Content Delivery Network) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="message.js"></script>
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+
+                <!-- TODO: Add multiple choice question here -->
+                <h3>Question #1: What is the capital of Croatia?</h3>
+                <button id="wrong1">Budapest</button>
+                <button id="right">Zagreb</button>
+                <button id="wrong2">Belgrade</button>
+                <button id="wrong3">Bucarest</button>
+                <br>
+                <p id="answer"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+
+                <!-- TODO: Add free response question here -->
+                <h3>Question: South Tyrol is part of which country?</h3>
+                <form onsubmit="return false">
+                    <input autocomplete="off" id="textanswer" type="text">
+                    <input type="submit" name="Submit answer">
+                </form>
+                <p id="answer2"></p>
+            </div>
+        </div>
+    </body>
+</html>
