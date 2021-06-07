@@ -22,7 +22,6 @@ $(document).ready(function() {   // allows the following code to run as soon as 
         $("#answer").html("Correct!");
     });
 
-
     $("form").submit(function(){
         let ans = $("#textanswer").val(); // get the value from the text field
 
@@ -33,9 +32,7 @@ $(document).ready(function() {   // allows the following code to run as soon as 
             $("#textanswer").css("background", "red");
             $("#answer2").html("Incorrect");
         }
-
     });
-
 });
 
 
@@ -67,5 +64,3 @@ $(document).ready(function() {   // allows the following code to run as soon as 
 //     document.querySelector("#right").style.backgroundColor = '#00ff00';
 //     document.querySelector("#answer").innerHTML = "Correct!";
 // });
-
-
